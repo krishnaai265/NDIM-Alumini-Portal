@@ -1,0 +1,275 @@
+div#container
+{
+   width: 689px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #f8f8f8;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+#Image2
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#EditProfile1
+{
+   background-color: #F5F5F5;
+   border-color:#CCCCCC;
+   border-width:1px;
+   border-style: solid;
+   border-radius: 4px;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   text-align: left;
+   border-spacing: 6px;
+   width: 501px;
+   height: 628px;
+}
+#EditProfile1 td
+{
+   padding: 0;
+}
+#EditProfile1 .header
+{
+   background-color: #878787;
+   color: #FFFFFF;
+   height: 16px;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+}
+#EditProfile1 .label
+{
+   height: 16px;
+}
+#EditProfile1 .row
+{
+   height: 30px;
+   text-align: left;
+}
+#EditProfile1 .input
+{
+   background-color: #FFFFFF;
+   border-color: #CCCCCC;
+   border-width: 1px;
+   border-style: solid;
+   border-radius: 3px;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   width: 100%;
+   height: 30px;
+   box-sizing: border-box;
+   padding: 6px 4px 6px 4px;
+}
+#EditProfile1 .input:focus
+{
+   border-color: #66AFE9;
+   outline: 0;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+}
+#EditProfile1 .button
+{
+   background-color: #3370B7;
+   border-color: #2E6DA4;
+   border-width: 1px;
+   border-style: solid;
+   border-radius: 3px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   padding: 4px 14px 4px 14px;
+}
+#avatar *
+{
+   box-sizing: border-box;
+}
+#avatar
+{
+   display: table;
+   border-collapse: separate;
+   border-spacing: 0;
+}
+#avatar .input
+{
+   position: relative;
+   z-index: 2;
+   float: left;
+   width: 100%;
+   margin-bottom: 0px;
+}
+#avatar .input-group-btn, #avatar .input
+{
+   display: table-cell;
+}
+#avatar .input
+{
+   border-bottom-right-radius: 0px;
+   border-top-right-radius: 0px;
+   margin: 0;
+}
+#avatar .input-group-btn
+{
+   width: 1%;
+   white-space: nowrap;
+   vertical-align: middle;
+   position: relative;
+   font-size: 0px;
+   white-space: nowrap;
+}
+#avatar .button
+{
+   border-bottom-left-radius: 0px;
+   border-top-left-radius: 0px;
+   display: inline-block;
+   height: 30px;
+   line-height: 16px;
+   margin-left: -1px;
+   padding: 6px 8px 6px 8px;
+   position: relative;
+}
+.thumbnail 
+{
+   position: relative;
+   min-height: 1px;
+   box-sizing: border-box;
+   float: left;
+   margin: 0;
+   padding: 3px 3px 3px 0px;
+   text-align: center;
+   vertical-align: top;
+}
+.thumbnail .frame 
+{
+   padding: 4px;
+   background-color: #fff;
+   border: 1px #DDDDDD solid;
+   border-radius: 4px;
+}
+.thumbnail img 
+{
+   border-width: 0;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 100%;
+   box-sizing: border-box;
+}
+#wb_Image2
+{
+   position: absolute;
+   left: 236px;
+   top: 33px;
+   width: 217px;
+   height: 71px;
+   z-index: 0;
+}
+#wb_EditProfile1
+{
+   position: absolute;
+   left: 94px;
+   top: 130px;
+   width: 501px;
+   height: 628px;
+   z-index: 1;
+}
+@media only screen and (min-width: 768px)
+{
+div#container
+{
+   width: 768px;
+}
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_Image2
+{
+   left: 236px;
+   top: 33px;
+   width: 217px;
+   height: 71px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_EditProfile1
+{
+   left: 94px;
+   top: 130px;
+   width: 501px;
+   height: 628px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#EditProfile1
+{
+   width: 501px;
+   height: 628px;
+}
+#EditProfile1
+{
+}
+}
+@media only screen and (max-width: 767px)
+{
+div#container
+{
+   width: 298px;
+}
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_Image2
+{
+   left: 41px;
+   top: 27px;
+   width: 217px;
+   height: 71px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_EditProfile1
+{
+   left: 11px;
+   top: 124px;
+   width: 277px;
+   height: 628px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#EditProfile1
+{
+   width: 277px;
+   height: 628px;
+}
+#EditProfile1
+{
+}
+}

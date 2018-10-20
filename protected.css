@@ -1,0 +1,60 @@
+div#container
+{
+   width: 286px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+@media only screen and (min-width: 768px)
+{
+div#container
+{
+   width: 487px;
+}
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#ProtectedPage1
+{
+   left: 33px;
+   top: 8px;
+   width: 48px;
+   height: 48px;
+   visibility: visible;
+   display: inline;
+}
+}
+@media only screen and (max-width: 767px)
+{
+div#container
+{
+   width: 478px;
+}
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#ProtectedPage1
+{
+   left: 33px;
+   top: 8px;
+   width: 48px;
+   height: 48px;
+   visibility: visible;
+   display: inline;
+}
+}
